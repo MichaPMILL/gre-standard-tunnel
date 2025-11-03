@@ -12,10 +12,10 @@
 #include <linux/if_tun.h>
 
 #define TUN_NAME "GRE_REIMS"
-#define TUN_IP4 "10.0.255.3"
-#define TUN_IP6 "2a10:2f00:128:5::"
-#define REMOTE_OUTER_IP "82.67.132.18"
-#define LOCAL_OUTER_IP "45.76.44.114"
+#define TUN_IP4 "10.0.0.0"
+#define TUN_IP6 "2001::"
+#define REMOTE_OUTER_IP "100.64.0.0"
+#define LOCAL_OUTER_IP "10.64.0.1"
 #define OUTER_TTL 25
 #define ETH0_MTU 1500
 
